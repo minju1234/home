@@ -1,77 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta charset="UTF-8">
-	<title>My Portfolio</title>
-</head>
-<body>
-	<header>
-		<nav>
-			<ul>
-				<img src="C:\Users\user\Desktop\새 폴더\111.jpg" alt="도쿄 배경 사진">
-				<li><a href="#about">About</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<main>
-		<section id="about">
-			<h1>About Me</h1>
-			<p>Hi, my name is John Doe and I am a web developer.</p>
-		</section>
-
-		<section id="skills">
-			<h1>Skills</h1>
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JavaScript</li>
-			</ul>
-		</section>
-
-		<section id="projects">
-			<h1>Projects</h1>
-			<ul>
-				<li>
-					<a href="#">
-						<img src="project1.jpg" alt="Project 1">
-						<h2>Project 1</h2>
-						<p>Description of project 1.</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						 <img src="project2.jpg" alt="Project 2">
-						<h2>Project 2</h2>
-						<p>Description of project 2.</p>
-					</a>
-				</li>
-			</ul>
-		</section>
-
-		<section id="contact">
-			<h1>Contact Me</h1>
-			<form action="#" method="post">
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name" required>
-
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email" required>
-
-				<label for="message">Message:</label>
-				<textarea id="message" name="message" required></textarea>
-
-				<input type="submit" value="Send">
-			</form>
-		</section>
-	</main>
-
-	<footer>
-		<p>&copy; 2023 My Portfolio</p>
-	</footer>
-</body>
-</html>
+<html>
+  <head>
+    <title>여행 사이트</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#">여행지 추천</a></li>
+            <li><a href="#">숙소 추천</a></li>
+            <li><a href="#">항공권 예약</a></li>
+            <li><a href="#">여행 커뮤니티</a></li>
+            <li><a href="#">로그인</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="banner">
+        <h1>여행을 떠나보세요!</h1>
+        <p>여행지 추천부터 숙소 추천, 항공권 예약까지!</p>
+      </div>
+      <section>
+        <h2>추천 여행지</h2>
+        <div class="destination-container">
+          <div class="destination">
+            <img src="https://picsum.photos/400/300?random=1" alt="여행지 이미지">
+            <h3>제주도</h3>
+            <p>제주도는 우리나라에서 가장 아름다운 자연 경관을 가진 지역 중 하나입니다.</p>
+            <a href="#">자세히 보기</a>
+          </div>
+          <div class="destination">
+            <img src="https://picsum.photos/400/300?random=2" alt="여행지 이미지">
+            <h3>방콕</h3>
+            <p>방콕은 저렴한 가격으로 맛있는 음식과 깔끔한 숙소를 즐길 수 있는 지역입니다.</p>
+            <a href="#">자세히 보기</a>
+          </div>
+          <div class="destination">
+            <img src="https://picsum.photos/400/300?random=3" alt="여행지 이미지">
+            <h3>하와이</h3>
+            <p>하와이는 아름다운 해변과 여유로운 분위기로 유명한 지역입니다.</p>
+            <a href="#">자세히 보기</a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>추천 숙소</h2>
+        <div class="accommodation-container">
+          <div class="accommodation">
+            <img src="https://picsum.photos/400/300?random=4" alt="숙소 이미지">
+            <h3>제주 숙소</h3>
+            <p
